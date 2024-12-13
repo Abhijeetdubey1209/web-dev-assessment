@@ -1,0 +1,113 @@
+/* Reset and Base Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Open Sans", sans-serif;
+}
+
+/* Carousel Item */
+.carousel-item img {
+    width: 100%;
+    height: 93vh;
+    object-fit: cover;
+}
+
+/* About Us Section */
+.About_Us {
+    min-width: 90%;
+    max-height: 700px;
+}
+
+/* Services Section */
+.services .row > * {
+    padding-right: 0;
+    padding-left: 0;
+}
+
+.row.my-5 {
+    display: flex;
+}
+
+/* Offer Style */
+.offer_style {
+    background-color: #f8f9fa; 
+    margin-bottom: 1rem;
+    border: none;
+}
+
+/* Juhu Image */
+.Juhuimg {
+    height: 20rem;
+    object-fit: cover;
+}
+
+/* Footer Styles */
+.footer {
+    background-color: #808080;
+    text-align: center;
+    margin-bottom: -3rem;
+    color: white;
+}
+
+.footer2 {
+    background-color: #808080;
+    text-align: center;
+    margin-top: 13rem;
+    color: white;
+}
+
+/* Card Image Wrapper */
+.card-img-wrapper {
+    display: flex;
+    justify-content: center;
+}
+
+.medium-img {
+    max-height: 500px;
+    width: auto;
+    object-fit: cover;
+}
+
+/* Responsive Media Queries */
+/* X-Small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) {
+    .carousel-item img {
+        height: 50vh;
+    }
+}
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) and (max-width: 767.98px) {
+    .carousel-item img {
+        height: 70vh;
+    }
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991.98px) {
+    .carousel-item img {
+        height: 80vh;
+    }
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) and (max-width: 1199.98px) {
+    .carousel-item img {
+        height: 90vh;
+    }
+}
+
+/* X-Large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) and (max-width: 1399.98px) {
+    .carousel-item img {
+        height: 93vh;
+    }
+}
+
+/* XX-Large devices (larger desktops, 1400px and up) */
+@media (min-width: 1400px) {
+    .carousel-item img {
+        height: 95vh;
+    }
+}
